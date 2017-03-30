@@ -17,7 +17,6 @@ app.use(function(req, res, next){
 	res.setHeader('X-Powered-By', 'Lars');
 	next();
 });
-app.use(app.router);
 
 /////////////////////////////////////////////
 
