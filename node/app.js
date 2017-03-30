@@ -1,4 +1,5 @@
 var express = require('./node_modules/express');
+var http = require('http');
 var app = express();
 
 /////////////////////////////////////////////
@@ -16,6 +17,7 @@ app.use(function(req, res, next){
 	res.setHeader('X-Powered-By', 'Lars');
 	next();
 });
+app.use(app.router);
 
 /////////////////////////////////////////////
 
@@ -98,9 +100,8 @@ app.get('/img/contact.jpg', function(req, res) {
 
 /////////////////////////////////////////////
 
-app.listen(port, function() {
-	console.log('Online auf Port: ' + port);
-});
+app.server = http.createServer(app);
+app.server.listen(port);
 
 //404 Handling
 app.use(function(req, res, next){
