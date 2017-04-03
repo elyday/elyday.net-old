@@ -1,4 +1,0 @@
-node:
-  build: .
-  ports:
-    - "88:88"
