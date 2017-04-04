@@ -1,0 +1,36 @@
+<aside class="bg-dark">
+	<div class="container text-center">
+		<div class="call-to-action"></div>
+	</div>
+</aside>
+<section id="contact" class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+				<h2 class="section-heading">Kontakt</h2>
+				<hr class="primary">
+				<p>Du möchtest mich erreichen?</p>
+			</div>
+			{% if site.telegram_username %}
+			<div class="col-lg-2 col-lg-offset-2 text-center"><i class="fa fa-comment-o fa-3x wow bounceIn"></i>
+				<p><a href="https://telegram.me/{{ site.telegram_username }}" target="_blank">@{{ site.telegram_username }}</a></p>
+			</div>
+			{% endif %}
+			{% if site.github_username %}
+			<div class="col-lg-2 text-center"><i data-wow-delay=".1s" class="fa fa-github fa-3x wow bounceIn"></i>
+				<p><a href="https://github.com/{{ site.github_username }}">{{ site.github_username | escape }}</a></p>
+			</div>
+			{% endif %}
+			{% if site.email %}
+			<div class="col-lg-2 text-center"><i data-wow-delay=".1s" class="fa fa-envelope-o fa-3x wow bounceIn"></i>
+				<p><a href="mailto:{{ site.email | escape }}">{{ site.email | escape }}</a></p>
+			</div>
+			{% endif %}
+			{% if site.twitter_username %}
+			<div class="col-lg-2 text-center"><i data-wow-delay=".1s" class="fa fa-twitter fa-3x wow bounceIn"></i>
+				<p><a href="https://twitter.com/{{ site.twitter_username | escape }}">@{{ site.twitter_username | escape }}</a></p>
+			</div>
+			{% endif %}
+		</div>
+	</div>
+</section>
