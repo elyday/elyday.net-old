@@ -18,6 +18,7 @@ email: me@elyday.net
 description: Elyday.net - Das bin ich
 baseurl: ""
 url: "http://elyday.net"
+force-https: true
 twitter_username:   urpgb
 github_username:    elyday
 telegram_username:  elyday
