@@ -13,7 +13,7 @@ weight: 1
 			<div class="col-lg-8 col-lg-offset-2 text-center">
 				<h2 class="section-heading">About me</h2>
 				<hr class="light">
-				<p class="text-faded">Hm, was gibt es alles über mich zu wissen?<br>Ich heiße Lars, bin im Internet unter dem Pseudonym elyday unterwegs und bin 17 Jahre alt. In meiner begrenzten Freizeit fahre ich sehr viel Rad und bin auch noch als Schiedsrichter unterwegs.</p>
+				<p class="text-faded">Hm, was gibt es alles über mich zu wissen?<br>Ich heiße Lars, bin im Internet unter dem Pseudonym elyday unterwegs und bin 18 Jahre alt. In meiner begrenzten Freizeit fahre ich sehr viel Rad und bin auch noch als Schiedsrichter unterwegs.</p>
 				<a href="#services" class="btn btn-default btn-xl page-scroll">Fähigkeiten</a>
 			</div>
 		</div>
