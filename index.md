@@ -24,7 +24,7 @@ weight: 1
 		<div class="col-lg-8 col-lg-offset-2 text-center">
 			<h2 class="section-heading">Fähigkeiten</h2>
 			<hr class="primary">
-		</div><br><br>
+		</div><br><br><br>
 		<div class="progress">
 			<div role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;" class="progress-bar progress-bar-success progress-bar-striped active">HTML: Fortgeschritten</div>
 		</div>
