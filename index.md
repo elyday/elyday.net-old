@@ -67,7 +67,7 @@ weight: 1
 				<div class="portfolio-box"><img src="{{ "/assets/img/portfolio/s4yt.png" | relative_url }}" alt="" class="img-responsive">
 					<div class="portfolio-box-caption">
 						<div class="portfolio-box-caption-content">
-							<div class="project-category text-faded">Programmierung (PHP)</div>
+							<div class="project-category text-faded">Programmierung</div>
 							<div class="project-name">SAMP4YOU Teamseite<br><a href="http://team.samp4you.com">Zur Referenz</a></div>
 						</div>
 					</div>
@@ -77,7 +77,7 @@ weight: 1
 				<div class="portfolio-box"><img src="{{ "/assets/img/portfolio/shp.png" | relative_url }}" alt="" class="img-responsive">
 					<div class="portfolio-box-caption">
 						<div class="portfolio-box-caption-content">
-							<div class="project-category text-faded">Konzeptionierung / Programmierung</div>
+							<div class="project-category text-faded">Konzeptionierung - Programmierung</div>
 							<div class="project-name">School Hours Plan<br><a href="https://shp.eynet.xyz">Zur Referenz</a></div>
 						</div>
 					</div>
@@ -87,8 +87,18 @@ weight: 1
 				<div class="portfolio-box"><img src="{{ "/assets/img/portfolio/gradesManagement.png" | relative_url }}" alt="" class="img-responsive">
 					<div class="portfolio-box-caption">
 						<div class="portfolio-box-caption-content">
-							<div class="project-category text-faded">Konzeptionierung / Programmierung</div>
+							<div class="project-category text-faded">Konzeptionierung - Programmierung</div>
 							<div class="project-name">Grades Management<br><a href="http://grades.elyday.net">Zur Referenz</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="portfolio-box"><img src="{{ "/assets/img/portfolio/jh-werk.jpg" | relative_url }}" alt="" class="img-responsive">
+					<div class="portfolio-box-caption">
+						<div class="portfolio-box-caption-content">
+							<div class="project-category text-faded">Programmierung</div>
+							<div class="project-name">Jugend Hilfs Werk<br></div>
 						</div>
 					</div>
 				</div>
