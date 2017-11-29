@@ -19,7 +19,7 @@ weight: 2
 		<table>
 			<tr>
 				<td>Telefon:</td>
-				<td>021628189460</td>
+				<td>02162 8189460</td>
 			</tr>
 			<tr>
 				<td>E-Mail:</td>
