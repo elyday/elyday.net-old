@@ -24,15 +24,15 @@ weight: 1
 		<div class="col-lg-8 col-lg-offset-2 text-center">
 			<h2 class="section-heading">Fähigkeiten</h2>
 			<hr class="primary">
-		</div>
+		</div><br><br>
 		<div class="progress">
 			<div role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;" class="progress-bar progress-bar-success progress-bar-striped active">HTML: Fortgeschritten</div>
 		</div>
 		<div class="progress">
-			<div role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;" class="progress-bar progress-bar-success progress-bar-striped active">PHP: Fortgeschritten</div>
+			<div role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 45%;" class="progress-bar progress-bar-success progress-bar-striped active">PHP: Fortgeschritten</div>
 		</div>
 		<div class="progress">
-			<div role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;" class="progress-bar progress-bar-danger progress-bar-striped active">Java: Anfänger</div>
+			<div role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 15%;" class="progress-bar progress-bar-danger progress-bar-striped active">Java: Anfänger</div>
 		</div>
 		<div class="progress">
 			<div role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;" class="progress-bar progress-bar-danger progress-bar-striped active">Node.js: Anfänger</div>
@@ -58,7 +58,7 @@ weight: 1
 					<div class="portfolio-box-caption">
 						<div class="portfolio-box-caption-content">
 							<div class="project-category text-faded">Programmierung (PHP)</div>
-							<div class="project-name">San Fierro Roleplay User Control Panel<br><a href="http://ucp.sf-roleplay.de">Zur Referenz</a></div>
+							<div class="project-name">San Fierro Roleplay User Control Panel<br></div>
 						</div>
 					</div>
 				</div>
