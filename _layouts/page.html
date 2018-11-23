@@ -1,16 +1,9 @@
 ---
 layout: default
 ---
-<header id="home">
-	<div class="header-content">
-		<div class="header-content-inner">
-			<h1>{{ page.title | escape }}</h1>
-			<hr>
-			{% if page.description %}
-				<p>{{ page.description}}</p>
-			{% endif %}
-			<a href="#content" class="btn btn-primary btn-xl page-scroll">Nach unten</a>
-		</div>
+
+<div class="page-content">
+	<div>
+		{{ content }}
 	</div>
-</header>
-{{ content }}
+</div>

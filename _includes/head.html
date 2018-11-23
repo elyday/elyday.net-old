@@ -1,25 +1,21 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="author" content="Lars Riße">
-    <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}</title>
-    <!-- Font CSS -->
-    <link rel="stylesheet" href="{{ "/assets/css/opensans.css" | relative_url }}" type="text/css">
-    <link rel="stylesheet" href="{{ "/assets/css/merriweather.css" | relative_url }}" type="text/css">
-    <!-- Bootstrap Core CSS-->
-    <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | relative_url }}" type="text/css">
-    <link rel="stylesheet" href="{{ "/assets/font-awesome/css/fontawesome-all.min.css" | relative_url }}" type="text/css">
-    <!-- Plugin CSS-->
-    <link rel="stylesheet" href="{{ "/assets/css/animate.min.css" | relative_url }}" type="text/css">
-    <!-- Custom CSS-->
-    <link rel="stylesheet" href="{{ "/assets/css/creative.css" | relative_url }}" type="text/css">
-    {% if site.force-https %}
-    <script>
-        // Don't force http when serving the website locally
-        if (!(window.location.host.startsWith("127.0.0.1")) && (window.location.protocol != "https:"))
-            window.location.protocol = "https";
-    </script>
-    {% endif %}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="Lars Riße">
+  <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skils and experience."/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+  <link href="{{ "/assets/font-awesome/css/fontawesome-all.min.css" | relative_url }}" rel="stylesheet">
+  <link href="{{ "/assets/css/aos.css" | relative_url }}" rel="stylesheet">
+  <link href="{{ "/assets/css/bootstrap.min.css" | relative_url }}" rel="stylesheet">
+  <link href="{{ "/assets/css/main.css" | relative_url }}" rel="stylesheet">
+  {% if site.force-https %}
+  <script>
+      // Don't force http when serving the website locally
+      if (!(window.location.host.startsWith("127.0.0.1")) && (window.location.protocol != "https:"))
+          window.location.protocol = "https";
+  </script>
+  {% endif %}
 </head>

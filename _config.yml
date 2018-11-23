@@ -28,3 +28,49 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+
+portfolio:
+  1:
+    name: "San Fierro Roleplay User Control Panel"
+    work: "Programmierung"
+    img: /assets/img/portfolio/ucp.png
+    pos: left
+    cat:
+      - development
+  2:
+    name: "SAMP4YOU Teamseite"
+    work: "Programmierung"
+    img: /assets/img/portfolio/s4yt.png
+    pos: left
+    cat:
+      - development
+  3:
+    name: "World Gaming Club"
+    work: "Lead of Development - System Admin - Programmierung"
+    img: /assets/img/portfolio/wgc.png
+    pos: right
+    cat:
+      - development
+  4:
+    name: "School Hours Plan"
+    work: "Konzeptionierung - Programmierung"
+    img: /assets/img/portfolio/shp.png
+    pos: left
+    cat:
+      - development
+      - conception
+  5:
+    name: "Grades Management"
+    work: "Konzeptionierung - Programmierung"
+    img: /assets/img/portfolio/gradesManagement.png
+    pos: right
+    cat:
+      - development
+      - conception
+  6:
+    name: "Jugend Hilfs Werk"
+    work: "Programmierung"
+    img: /assets/img/portfolio/jh-werk.jpg
+    pos: right
+    cat:
+      - development

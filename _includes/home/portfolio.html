@@ -1,0 +1,96 @@
+{% assign left = site.portfolio | where: "pos", "left" %}
+{% assign right = site.portfolio | where: "pos", "right" %}
+
+<div class="section" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 ml-auto mr-auto">
+        <div class="h4 text-center mb-4 title">Portfolio</div>
+        <div class="nav-align-center">
+          <ul class="nav nav-pills nav-pills-primary" role="tablist">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#development" role="tablist" rel="tooltip" title="Development"><i class="fas fa-laptop" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#conception" role="tablist" rel="tooltip" title="Conception"><i class="fas fa-book" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="tab-content gallery mt-5">
+      <div class="tab-pane active" id="development">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              {% for item in left %}
+              {% assign cat = item.cat | join: ' ' %}
+              {% if cat contains "development" %}
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="{{ item.img | relative_url }}" alt="Image" />
+                    <figcaption>
+                      <div class="h4">{{ item.name }}</div>
+                      <p>{{ item.work }}</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              {% endif %}
+              {% endfor %}
+            </div>
+            <div class="col-md-6">
+              {% for item in right %}
+              {% assign cat = item.cat | join: ' ' %}
+              {% if cat contains "development" %}
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="{{ item.img | relative_url }}" alt="Image" />
+                    <figcaption>
+                      <div class="h4">{{ item.name }}</div>
+                      <p>{{ item.work }}</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="conception" role="tabpanel">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              {% for item in left %}
+              {% assign cat = item.cat | join: ' ' %}
+              {% if cat contains "conception" %}
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="{{ item.img | relative_url }}" alt="Image" />
+                    <figcaption>
+                      <div class="h4">{{ item.name }}</div>
+                      <p>{{ item.work }}</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              {% endif %}
+              {% endfor %}
+            </div>
+            <div class="col-md-6">
+              {% for item in right %}
+              {% assign cat = item.cat | join: ' ' %}
+              {% if cat contains "conception" %}
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="{{ item.img | relative_url }}" alt="Image" />
+                    <figcaption>
+                      <div class="h4">{{ item.name }}</div>
+                      <p>{{ item.work }}</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
